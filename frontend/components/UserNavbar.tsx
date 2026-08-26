@@ -183,7 +183,7 @@ export default function UserNavbar({
 
           {/* GST Guide Link */}
           <Link
-            href="/#benefits"
+            href="/gstGuide"
             className="flex items-center gap-1 text-xs font-medium text-blue-100 hover:text-white hover:bg-white/10 px-3 py-1.5 rounded-lg transition-all"
           >
             <BookOpen className="w-3.5 h-3.5 text-[#85b6ee]" />
@@ -351,7 +351,7 @@ export default function UserNavbar({
             <span>News & Updates (5 New)</span>
           </Link>
           <Link
-            href="/#benefits"
+            href="/gstGuide"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center gap-3 text-sm font-medium text-blue-100 hover:text-white hover:bg-white/10 px-3 py-2 rounded-lg"
           >

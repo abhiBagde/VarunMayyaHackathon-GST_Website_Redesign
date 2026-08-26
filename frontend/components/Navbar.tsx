@@ -58,7 +58,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="#benefits"
+            href="/gstGuide"
             className="flex items-center gap-1.5 text-xs font-medium text-blue-100 hover:text-white hover:bg-white/10 px-3 py-1.5 rounded-lg transition-all duration-200"
           >
             <BookOpen className="w-3.5 h-3.5 text-[#85b6ee]" />
@@ -96,15 +96,7 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden bg-[#041d42] border-t border-[#0d3b7e] px-4 pt-2.5 pb-4 space-y-2 animate-in slide-in-from-top-2 duration-200">
           <Link
-            href="#roadmap"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2.5 text-xs font-medium text-blue-100 hover:text-white hover:bg-white/10 px-2.5 py-2 rounded-lg"
-          >
-            <UserPlus className="w-3.5 h-3.5 text-[#85b6ee]" />
-            <span>New User Registration</span>
-          </Link>
-          <Link
-            href="#benefits"
+            href="/gstGuide"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center gap-2.5 text-xs font-medium text-blue-100 hover:text-white hover:bg-white/10 px-2.5 py-2 rounded-lg"
           >
